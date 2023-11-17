@@ -1,0 +1,71 @@
+.container{
+    margin: 50px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    img{
+        width: 100px;
+    }
+  }
+
+  form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    input{
+        width: 100%;
+        padding: 10px;
+        border-radius: 4px;
+        margin-top: 5px;
+        border: none;
+        &:focus{
+            outline: 1px solid #747bff;
+        }
+    }
+    .check{
+        display: flex;
+        align-items: center;
+        input{
+            width: 30px;
+            height: 20px;
+            gap: 10px;
+        }
+    }
+
+    .error{
+        outline: 1px solid red !important;
+    }
+    .check-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    p{
+        color: rgb(206, 0, 0);
+    }
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  
+    h3 {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    img {
+      height: 50px;
+    }
+  
+    div {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+  }
